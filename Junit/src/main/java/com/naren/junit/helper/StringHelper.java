@@ -7,10 +7,11 @@ public class StringHelper {
 			return str.replaceAll("A", "");
 
 		String first2Chars = str.substring(0, 2);
+		System.out.println("first two chars are: " + first2Chars);
 		String stringMinusFirst2Chars = str.substring(2);
+		System.out.println("string after 2 chars: " + stringMinusFirst2Chars);
 
-		return first2Chars.replaceAll("A", "") 
-				+ stringMinusFirst2Chars;
+		return first2Chars.replaceAll("A", "") + stringMinusFirst2Chars;
 	}
 
 	public boolean areFirstAndLastTwoCharactersTheSame(String str) {
