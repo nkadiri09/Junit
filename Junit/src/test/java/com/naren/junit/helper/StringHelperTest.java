@@ -29,5 +29,11 @@ public class StringHelperTest {
 		System.out.println("Printing the value: "+sh.areFirstAndLastTwoCharactersTheSame("ABDB"));
 		assertFalse(sh.areFirstAndLastTwoCharactersTheSame("ABDB"));
 	}
+	
+	@Test
+	public void testAreFirstAndLastTwoCharactersTheSame_PositiveSenario() {
+		System.out.println("Printing the value: "+sh.areFirstAndLastTwoCharactersTheSame("ABAB"));
+		assertTrue(sh.areFirstAndLastTwoCharactersTheSame("ABAB"));
+	}
 
 }
