@@ -12,7 +12,6 @@ public class Exception1Test {
 		int i = 1 / 0;
 
 		// Negative Scenario
-
 		// int i = 1 / 2;
 	}
 

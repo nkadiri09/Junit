@@ -21,7 +21,7 @@ public class StringHelperTest {
 	*/
 	@Before
 	public void runOnceBeforeClass() {
-		System.out.println("@Before - runOnceBeforeClass");
+		System.out.println("@Before - runOnceBeforeTest");
 		sh = new StringHelper();
 	}
 
